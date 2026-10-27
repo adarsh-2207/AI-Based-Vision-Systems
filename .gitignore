@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Dataset images and raw data
+data/256_ObjectCategories/
+
+# Generated model files
+models/*
+!models/.gitkeep
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
